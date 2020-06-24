@@ -16,7 +16,6 @@
             class="el-menu-vertical-demo"
             @open="handleOpen"
             @close="handleClose">
-
             <el-submenu index="0">
               <template slot="title">
                 <router-link to="/dataMan" :replace="true"><div class="full">数据管理</div></router-link>
